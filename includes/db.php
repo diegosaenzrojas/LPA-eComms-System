@@ -1,8 +1,9 @@
 <?php
-$host = 'localhost:3306';
+$host = 'localhost';
+$port = '3306';
 $dbname = 'LPA_eComms';
 $user = 'root';
-$pass = '123456';
+$pass = '';
 
 try {
     $db = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass);
